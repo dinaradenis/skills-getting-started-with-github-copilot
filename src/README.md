@@ -48,3 +48,13 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Running Tests
+
+From the project root, install the dependencies and run:
+
+```
+pytest -q
+```
+
+Backend API tests are located in the `tests/` directory and use the Arrange-Act-Assert pattern.
